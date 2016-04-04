@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html ng-app="ReporterApp" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Главная / Журнал «Вести.Репортер»</title>
+
+    <meta property="og:title" content="Главная / Журнал «Вести.Репортер»"/>
+    <meta property="og:description" content="Вести"/>
+
+    <meta name="description" content="Вести" />
+    <meta name="robots" content="index, follow, all" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='css/stylesheet.css' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+<div class="hidden-sm hidden-xs">
+    <div><img src="img/akademia_banner_970x200.jpg" class="img-responsive center-block"></div>
+</div>
+
+<div class="wrap">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 hidden-xs">
+                    <a class="r-logo" href="#"></a>
+                </div>
+                <div class="col-md-5 col-sm-7 col-xs-12">
+                    <nav class="navbar navbar-fixed main-menu" role="navigation">
+                        <div class="navbar-header">
+                            <div class="left-block-xs visible-xs">
+                                <a class="r-logo" href="#"></a>
+                            </div>
+                            <div class="more-xs">
+                                <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="search-xs">
+                                <button class="btn navbar-toggle search" data-toggle="collapse" data-target="#search-me"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="collapse navbar-collapse" id="main-menu">
+                            <ul class="nav navbar-nav main-menu-text">
+                                <li><a href="#">Метко</a></li>
+                                <li><a href="#">Толково</a></li>
+                                <li><a href="#">Со вспышкой</a></li>
+                                <li><a class="subscription archive-action" href="#" oc-modal-open="{url:'archive-modal.html', cls: 'slide-down', onOpen:'modalOnOpen', onClose:'modalOnClose'}">Архив</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-md-4 col-sm-5 hidden-xs header-icon">
+                    <a class="btn-social-icon" href="http://instagram.com/vestireporter"><i class="fa fa-instagram"></i></a>
+                    <a class="btn-social-icon" href="http://www.odnoklassniki.ru/vestireporter"><i class="fa fa-odnoklassniki"></i></a>
+                    <a class="btn-social-icon" href="https://www.youtube.com/user/vestireporter"><i class="fa fa-youtube"></i></a>
+                    <a class="btn-social-icon" href="https://plus.google.com/u/1/117821081256706677337/"><i class="fa fa-google-plus"></i></a>
+                    <a class="btn-social-icon" href="https://twitter.com/VestiReporter"><i class="fa fa-twitter"></i></a>
+                    <a class="btn-social-icon" href="https://www.facebook.com/pages/ВестиРепортер/291895300950532"><i class="fa fa-facebook"></i></a>
+                    <a class="btn-social-icon" href="http://vk.com/public56535814"><i class="fa fa-vk"></i></a>
+                    <a class="btn-social-icon hidden-xs" data-toggle="collapse" data-target="#search-me" href="javascript:void(0);"><i class="fa fa-search"></i></a>
+                </div>
+                <div id="search-me" class="collapse">
+                    <div class="top-search">
+                        <form id="top_search_form" role="search" method="get" action="#">
+                            <div class="search-form">
+                                <label><input type="text" class="search-field" id="top_search_form_input" placeholder="Поиск..." value=""></label>
+                                <button type="submit" class="btn btn-default search-submit"><i class="fa fa-search"> </i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="main">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-image">
+                        <div><img src="img/img_main.jpg"></div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12 title-block">
+                                <div class="sidebar-header widget-area" role="complementary">
+                                    <aside id="text-2" class="widget widget_text">
+                                        <div class="textwidget">
+                                            <div class="title-article"><h1><a href="#" class="title">«Когда женщина рожает, она — на другой планете»</a></h1></div>
+
+                                            <a href="#" class="subtitle-article"> Легендарный французский акушер-гинеколог Мишель Оден о том, почему выживание цивилизации зависит от изменения подходов к родам </a>
+
+                                            <div class="author">Маргарита Чимирис</div>
+                                        </div>
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+
+                <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12 content" id="morenews_container" data-url="/index/" data-page="1" data-nextpage="1">
+                    <div class="row news-block">
+                        <div class="col-md-7 image-news-block">
+                            <a href="#" class="img-article"><img src="img/article-one.jpg"></a>
+                        </div>
+                        <div class="col-md-5 info-news-block">
+                            <h2><a href="#" class="title">Французский поцелуй</a></h2>
+                            <div class="author">Евгений Ясенов</div>
+                            <div class="subtitle"> К 40-летию кинопремии &laquo;Сезар&raquo; мы отобрали 10 лучших фильмов, получивших эту награду </div>
+                            <a href="#" class="btn-read-more">читать далее</a>
+                        </div>
+                    </div>
+                    <div class="row news-block">
+                        <div class="col-md-7 col-md-push-5 image-news-block">
+                            <a href="#" class="img-article"><img src="img/article-two.jpg"></a> </div>
+                        <div class="col-md-5 col-md-pull-7 info-news-block">
+                            <h2><a href="#" class="title">Тайна убийства адвоката Грабовского</a></h2>
+                            <div class="author">Евгения Иванова, Анастасия Рябоконь, Анастасия Кучкина</div>
+                            <div class="subtitle"> &laquo;Репортер&raquo; выяснил, как жили и чем промышляли парни, которых сейчас обвиняют в убийстве защитника&nbsp;ГРУшника </div>
+                            <a href="#" class="btn-read-more">читать далее</a>
+                        </div>
+                    </div>
+                    <div class="row news-block">
+                        <div class="col-md-7 image-news-block">
+                            <a href="#" class="img-article"><img src="img/article-three.jpg"></a> </div>
+                        <div class="col-md-5 info-news-block">
+                            <h2><a href="#" class="title">Кинопарад «Мерседесов»</a></h2>
+                            <div class="author">Евгений Ясенов</div>
+                            <div class="subtitle"> 12 &laquo;ролей&raquo;, сыгранных знаменитой немецкой маркой </div>
+                            <a href="#" class="btn-read-more">читать далее</a>
+                        </div>
+                    </div>
+                    <div class="row news-block">
+                        <div class="col-md-7 col-md-push-5 image-news-block">
+                            <a href="#" class="img-article"><img src="img/article-fourth.jpg"></a> </div>
+                        <div class="col-md-5 col-md-pull-7 info-news-block">
+                            <h2><a href="#" class="title">Топ-5 научных событий марта</a></h2>
+                            <div class="author">Дмитрий Симонов</div>
+                            <div class="subtitle"> Синтетическая бактерия, очень умные компьютеры и рыбы, а также планета, угрожающая всему живому на Земле </div>
+                            <a href="#" class="btn-read-more">читать далее</a>
+                        </div>
+                    </div>
+                    <div class="row news-block">
+                        <div class="col-md-7 image-news-block">
+                            <a href="#" class="img-article"><img src="img/article-fifth.jpg"></a></div>
+                        <div class="col-md-5 info-news-block">
+                            <h2><a href="#" class="title">Как выбрать школу для ребенка</a></h2>
+                            <div class="author">Виктория Краснобай</div>
+                            <div class="subtitle"> Психолог разработала 12 критериев отбора учебного заведения, а мы проверили, как они работают </div>
+                            <a href="#" class="btn-read-more">читать далее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 right-column">
+                    <div class="banner hidden-xs hidden-sm"><img src="img/akademia_banner_970x200.jpg" class="img-responsive"></div>
+
+                    <div class="popnews" id="reporter-popnews">
+                        <div class="title-rubric"><a>Популярное</a></div>
+
+                        <div class="select-period">
+                            <a href="#popnews-weekly" class="btn-popular btn-active">за неделю</a>
+                            <a href="#popnews-monthly" class="btn-popular">за месяц</a>
+                        </div>
+                        <div class="row row-popnews-cont" id="popnews-weekly">
+
+                            <div class="col-lg-12 col-md-12 ">
+                                <div class="popular-news">
+                                    <div class="number">1</div>
+                                    <div class="text-popular">
+                                        <a href="#" class="link-popular">Тайна убийства адвоката Грабовского</a>
+                                        <div class="author">Евгения Иванова, Анастасия Рябоконь, Анастасия Кучкина</div>
+                                    </div>
+                                </div>
+                                <div class="popular-news">
+                                    <div class="number">2</div>
+                                    <div class="text-popular">
+                                        <a href="#" class="link-popular">«Подниму рушник над Эверестом»</a>
+                                        <div class="author">Влад Абрамов</div>
+                                    </div>
+                                </div>
+                                <div class="popular-news">
+                                    <div class="number">3</div>
+                                    <div class="text-popular">
+                                        <a href="#" class="link-popular">Пять историй из будущего украинской науки</a>
+                                        <div class="author">Дмитрий Симонов</div>
+                                    </div>
+                                </div>
+                                <div class="popular-news">
+                                    <div class="number">4</div>
+                                    <div class="text-popular">
+                                        <a href="#" class="link-popular">«Когда женщина рожает, она — на другой планете»</a>
+                                        <div class="author">Маргарита Чимирис</div>
+                                    </div>
+                                </div>
+                                <div class="popular-news">
+                                    <div class="number">5</div>
+                                    <div class="text-popular">
+                                        <a href="#" class="link-popular">Как выбрать школу для ребенка</a>
+                                        <div class="author">Виктория Краснобай</div>
+                                    </div>
+                                </div>
+                            </div><div class="col-lg-12 col-md-12 ">
+                            <div class="popular-news">
+                                <div class="number">6</div>
+                                <div class="text-popular">
+                                    <a href="#" class="link-popular">13 фактов о психоанализе</a>
+                                    <div class="author">Евгений Ясенов</div>
+                                </div>
+                            </div>
+                            <div class="popular-news">
+                                <div class="number">7</div>
+                                <div class="text-popular">
+                                    <a href="#" class="link-popular">Топ-5 научных событий марта</a>
+                                    <div class="author">Дмитрий Симонов</div>
+                                </div>
+                            </div>
+                            <div class="popular-news">
+                                <div class="number">8</div>
+                                <div class="text-popular">
+                                    <a href="#" class="link-popular">30 образов Леди Гаги</a>
+                                    <div class="author">Евгений Ясенов</div>
+                                </div>
+                            </div>
+                            <div class="popular-news">
+                                <div class="number">9</div>
+                                <div class="text-popular">
+                                    <a href="#" class="link-popular">Кинопарад «Мерседесов»</a>
+                                    <div class="author">Евгений Ясенов</div>
+                                </div>
+                            </div>
+                            <div class="popular-news">
+                                <div class="number">10</div>
+                                <div class="text-popular">
+                                    <a href="#" class="link-popular">Французский поцелуй</a>
+                                    <div class="author">Евгений Ясенов</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="row row-popnews-cont" id="popnews-monthly" style="display:none;">
+
+                            <div class="col-lg-12 col-md-12 ">
+                                <div class="popular-news">
+                                    <div class="number">1</div>
+                                    <div class="text-popular">
+                                        <a href="#" class="link-popular">Тайна убийства адвоката Грабовского</a>
+                                        <div class="author">Евгения Иванова, Анастасия Рябоконь, Анастасия Кучкина</div>
+                                    </div>
+                                </div>
+                                <div class="popular-news">
+                                    <div class="number">2</div>
+                                    <div class="text-popular">
+                                        <a href="#" class="link-popular">Кто убил дочерей Вадима Холоденко</a>
+                                        <div class="author">Евгения Иванова</div>
+                                    </div>
+                                </div>
+                                <div class="popular-news">
+                                    <div class="number">3</div>
+                                    <div class="text-popular">
+                                        <a href="#" class="link-popular">«Все это может закончиться третьим Майданом»</a>
+                                        <div class="author">Евгения Иванова</div>
+                                    </div>
+                                </div>
+                                <div class="popular-news">
+                                    <div class="number">4</div>
+                                    <div class="text-popular">
+                                        <a href="#" class="link-popular">Дошутились: 8 пророчеств об аннексии Крыма</a>
+                                        <div class="author">Виктория Пташкина, Евгения Иванова</div>
+                                    </div>
+                                </div>
+                                <div class="popular-news">
+                                    <div class="number">5</div>
+                                    <div class="text-popular">
+                                        <a href="#" class="link-popular">Крым: в чужой гавани</a>
+                                        <div class="author">Яна Дубинянская</div>
+                                    </div>
+                                </div>
+                            </div><div class="col-lg-12 col-md-12 ">
+                            <div class="popular-news">
+                                <div class="number">6</div>
+                                <div class="text-popular">
+                                    <a href="#" class="link-popular">«Подниму рушник над Эверестом»</a>
+                                    <div class="author">Влад Абрамов</div>
+                                </div>
+                            </div>
+                            <div class="popular-news">
+                                <div class="number">7</div>
+                                <div class="text-popular">
+                                    <a href="#">Как продают Украину: топ-7 шпионских историй</a>
+                                    <div class="author">Евгения Иванова</div>
+                                </div>
+                            </div>
+                            <div class="popular-news">
+                                <div class="number">8</div>
+                                <div class="text-popular">
+                                    <a href="#" class="link-popular">Лунное затмение 23 марта дает шанс на мир</a>
+                                    <div class="author">Евгений Ясенов</div>
+                                </div>
+                            </div>
+                            <div class="popular-news">
+                                <div class="number">9</div>
+                                <div class="text-popular">
+                                    <a href="#" class="link-popular">«Ела с серебра со Щербицким, а оказалась в доме престарелых»</a>
+                                    <div class="author">Влад Абрамов</div>
+                                </div>
+                            </div>
+                            <div class="popular-news">
+                                <div class="number">10</div>
+                                <div class="text-popular">
+                                    <a href="#" class="link-popular">Пять историй из будущего украинской науки</a>
+                                    <div class="author">Дмитрий Симонов</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="link-page"><a href="#">Читать больше хороших статей</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="help-push"></div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6 footer-left">
+                <p>&copy; 2016 "ООО "Вести масс-медиа"</p>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 footer-right">
+                <a href="#">О проекте</a>
+                <a href="#">Реклама</a>
+                <a href="#">Использование материалов</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script type="text/javascript" src="js/jquery.2.0.3.min.js"></script>
+
+<script type="text/javascript" src="angular/angular.min.js"></script>
+<script type="text/javascript" src="angular/angular-scroll.min.js"></script>
+
+<script type="text/javascript" src="js/ocModal.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</body>
+</html>
